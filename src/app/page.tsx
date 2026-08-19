@@ -10,7 +10,7 @@ export default function Home() {
           </span>
           <span>
             <span className="brand-name">Sparkwrit</span>
-            <span className="brand-tag">AI writing micro-SaaS</span>
+            <span className="brand-tag">AI writing studio</span>
           </span>
         </a>
         <nav className="top-links" aria-label="Ссылки">
@@ -21,22 +21,20 @@ export default function Home() {
           >
             GitHub
           </a>
-          <a
-            href="https://sparkwrit.vercel.app"
-            target="_blank"
-            rel="noreferrer"
-          >
-            Live
+          <a className="nav-cta" href="#studio">
+            Открыть студию
           </a>
-          <a href="#studio">Студия</a>
         </nav>
       </header>
 
       <section className="hero">
-        <h1>Текст с нужной тональностью за минуту</h1>
+        <p className="hero-kicker">Sparkwrit</p>
+        <h1>
+          Текст с нужной <em>тональностью</em> за минуту
+        </h1>
         <p>
-          Посты, резюме и сопроводительные письма — с выбором тона, историей в
-          браузере и деплоем на Vercel.
+          Посты, резюме и сопроводительные письма — выбери тон, опиши тему и
+          получи готовый текст.
         </p>
       </section>
 
@@ -45,8 +43,8 @@ export default function Home() {
       </div>
 
       <footer className="footer">
-        <span>Vibe Coding intensive · тема 1: AI Micro-SaaS</span>
-        <span>Next.js · OpenAI · localStorage · Vercel</span>
+        <span>Vibe Coding intensive · тема 1</span>
+        <span>Next.js · OpenAI · Vercel</span>
       </footer>
     </div>
   );

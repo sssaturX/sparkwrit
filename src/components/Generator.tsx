@@ -207,10 +207,9 @@ export function Generator() {
             <pre className="result-body">{result}</pre>
           ) : (
             <div className="result-empty">
-              <p>Здесь появится готовый текст.</p>
+              <p>Здесь появится готовый текст</p>
               <p className="muted">
-                Без ключа OpenAI приложение работает в демо-режиме — удобно для
-                локального запуска и питча.
+                Выбери тип и тон слева — без API-ключа работает демо-режим.
               </p>
             </div>
           )}
